@@ -1,0 +1,68 @@
+.nav-bg-container {
+  background-image: linear-gradient(to bottom, #2121218b, #080808);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #35373c;
+}
+
+.nav-option {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  color: #bec3cd;
+}
+
+.nav-options-container {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: cursive;
+}
+
+.search-box {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  padding: 4px;
+  color: #080808;
+}
+
+.search-box-container {
+  background-color: #ffffffde;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-hide {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.seach-icon {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.active {
+  color: green;
+}
+

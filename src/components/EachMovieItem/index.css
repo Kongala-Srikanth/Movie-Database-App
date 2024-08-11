@@ -1,0 +1,43 @@
+.each-movie {
+  border: 1px solid #504f4fc0;
+  padding-bottom: 5px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 260px;
+}
+
+.poster-view {
+  height: 300px;
+  width: 100%;
+}
+
+.movie-title {
+  color: #ffffff;
+  margin-top: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.rating {
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.center-btn-position {
+  text-align: center;
+}
+
+.view-details-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: #b6ec229f;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0px;
+  font-weight: 500  ;
+}

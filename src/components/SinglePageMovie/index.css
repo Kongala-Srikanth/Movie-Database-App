@@ -1,0 +1,29 @@
+.movie-title-heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #cccfd7;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.single-page-poster {
+  height: 450px;
+}
+
+.single-page-movie-details {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+}
+
+.details {
+  color: #cccfd7;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.heading-bold {
+  font-weight: 600;
+  margin-right: 25px;
+}

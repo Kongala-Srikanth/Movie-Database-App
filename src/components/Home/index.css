@@ -1,0 +1,67 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #2e3e4e, #0e0e16);
+  min-height: 100vh;
+  background-size: cover;
+  padding-bottom: 35px;
+}
+
+.main-heading-container {
+  background-image: linear-gradient(to bottom, #212121bf, #080808);
+  width: 90%;
+  margin-top: 10px;
+  padding: 5px 30px;
+  padding-bottom: 25px;
+}
+
+.main-heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #cccfd7;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.movie-showcase-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.movie-card-position {
+  display: flex;
+  justify-content: center;
+}
+
+.page-number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.page-number {
+  background-image: linear-gradient(to right, #5566a9, #b321e8);
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 2px solid #e8eefe;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.page-number-text {
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 500;
+}

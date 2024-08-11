@@ -1,0 +1,47 @@
+.profile-image {
+  height: 150px;
+  width: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cast-container {
+  color: #cccfd7;
+  font-weight: 500;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+.each-cast {
+  background-color: #7178b233;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.cast-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: #cccfb1;
+  margin-top: 65px;
+}
+
+.cast-bold {
+  font-weight: 500;
+}
+
+.cast-details {
+  text-align: center;
+  color: #cccfd7;
+  line-height: 1.7;
+}
